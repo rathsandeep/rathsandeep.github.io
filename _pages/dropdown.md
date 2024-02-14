@@ -9,6 +9,6 @@ children:
     permalink: /assets/pdf/sandeep_rath_CV.pdf
   - title: divider
   - title: Brief Resume
-    permalink:
+    permalink: /assets/pdf/sandeep_rath_short_resume.pdf
 
 ---
