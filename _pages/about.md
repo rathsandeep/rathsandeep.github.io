@@ -24,3 +24,5 @@ My approach to research involves close collaboration with hospitals, providers, 
 I have collaborated with technology firms and healthcare systems such as, Veterans Health Los Angeles, UCLA Ronald Regan Medical Center, UNC Health, Opflow, University of Pittsburgh Medical Center
 
 I teach Operations Management and Healthcare and Service Operations Management at the Kenan Flagler Business School.
+
+My brief resume is available [here](/assets/pdf/sandeep_rath_short_resume.pdf) and my detailed CV [here](/assets/pdf/sandeep_rath_CV.pdf).
