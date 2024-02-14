@@ -9,7 +9,8 @@ nav_order: 2
 
 <!-- _pages/research.md -->
  <a href="https://scholar.google.com/citations?user=0A45b-kAAAAJ&hl=en"><b>Google Scholar Profile</b></a>
-    <p></p>
+
+
 <h2>published & accepted papers</h2>
 <div class="publications">
   {% bibliography --group_by none --query @*[accepted=true]* %}
