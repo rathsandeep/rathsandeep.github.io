@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: more
 nav: true
 nav_order: 9
 dropdown: true
 children:
   - title: CV
-    permalink: 
+    permalink: /assets/pdf/sandeep_rath_CV.pdf
   - title: divider
   - title: Brief Resume
     permalink:
