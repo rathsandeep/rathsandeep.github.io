@@ -72,6 +72,14 @@ layout: default
       {% include working_papers.liquid %}
     {% endif %}
 
+            <!-- In Progress papers -->
+    {% if page.inprogress_papers %}
+      <h2>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">work in progress</a>
+      </h2>
+      {% include inprogress_papers.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
