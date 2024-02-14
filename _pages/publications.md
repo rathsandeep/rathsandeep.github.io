@@ -1,15 +1,14 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
+permalink: /research/
+title: research
 description:
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/research.md -->
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography --group_by none --query @*[accepted=true]* %}
 </div>
+
