@@ -1,0 +1,438 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{xcolor}
+
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Last updated on #1}}
+
+
+\usepackage{fancyhdr}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[none]{hyphenat}
+
+% Set your name here
+\def\name{Sandeep Rath}
+
+
+
+\fancyhf{}
+\cfoot{ Last updated: \today }
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+	colorlinks = true,
+	urlcolor = black,
+	pdfauthor = {\name},
+	pdfkeywords = {economics, statistics, mathematics},
+	pdftitle = {\name: Curriculum Vitae},
+	pdfsubject = {Curriculum Vitae},
+	pdfpagemode = UseNone
+}
+
+\geometry{
+	body={6.5in,10in},
+	left=1.0in,
+	top=1in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+	\begin{list}{}{
+			\setlength{\leftmargin}{1.5em}
+		}
+	}{
+\end{list}
+}
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[0.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+% usage: \cvreference{name}{address line 1}{address line 2}{address line 3}{address line 4}{e-mail address}{phone number}
+% Everything but the name is optional
+% If \addresssymbol, \emailsymbol or \phonesymbol are specified, they will be used.
+% (Per default, \addresssymbol isn't specified, the other two are specified.)
+% If you don't like the symbols, remove them from the following code, including the tilde ~ (space).
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+
+\begin{document}
+
+	% Place name at left
+	{\huge \name}
+
+	% Alternatively, print name centered and bold:
+	%\centerline{\huge \bf \name}
+
+	\vspace{0.25in}
+
+	\begin{minipage}{0.45\linewidth}
+		\href{http://www.unc.edu/}{
+			Kenan Flagler Business School\\
+			University of North Carolina} \\
+		McColl 4705 \\
+		CB\# 3490 \\
+		Chapel Hill, NC 27599
+	\end{minipage}
+	\begin{minipage}{0.45\linewidth}
+		\begin{tabular}{ll}
+			Phone: & (919) 962-3818 \\
+			Fax: &  (919) 962-6949 \\
+			Email: & \href{mailto:sandeep@unc.edu}{\tt sandeep@unc.edu} \\
+			Homepage: & \href{https://rathsandeep.github.io/}{\tt rathsandeep.github.io}\\
+		\end{tabular}
+	\end{minipage}
+
+
+	%\section*{Personal}
+
+	%\begin{itemize}
+	%\item Born on September 29, 1895.
+	%\item United States Citizen.
+	%\end{itemize}
+
+
+	\section*{\textbf{Education}}
+
+	\begin{itemize}
+		\item \textbf{UCLA Anderson School of Management, Los Angeles}
+		\begin{itemize}
+			\item Ph.D. Management,  June, 2016.
+			\item \emph{Dissertation Title}: Resource Planning Models for Healthcare Organizations.
+			\item \emph{Dissertation committee}: Kumar Rajaram (chair), Felipe Caro, Uday Karmarkar, {Aman Mahajan}.
+		\end{itemize}
+		\item \textbf{Indian Institute of Technology, Kharagpur}
+		\begin{itemize}
+			\item M.Tech. Instrumentation Engineering, 2006.
+			\item B.Tech. Electrical Engineering, 2006.
+			\begin{itemize}
+			\item[\textendash] Minor, Electronics and Telecommunication Engineering.
+		\end{itemize}
+		\end{itemize}
+
+
+
+
+	\end{itemize}
+
+
+	\section*{\textbf{Professional Experience}}
+
+	\begin{itemize}
+		\item \textbf{Kenan-Flagler Business School, University of North Carolina at Chapel Hill}
+
+		\begin{itemize}
+			\item Assistant Professor, 2016--present.
+		\end{itemize}
+		\item \textbf{UCLA Anderson School of Management, Los Angeles}
+
+		\begin{itemize}
+			\item Teaching Assistant, Executive MBA Program, Fall 2016.
+			\item Teaching Assistant, Fully Employed MBA Program, Fall Quarters of 2012--2016.
+		\end{itemize}
+
+		\item \textbf{Indian School of Business, Hyderabad}
+
+		\begin{itemize}
+			\item Research Associate, 2010--2011.
+		\end{itemize}
+
+
+		\item \textbf{Schlumberger Ltd., Pune}
+		\begin{itemize}
+			\item Business Analyst,  2008--2009
+			\item Manufacturing Engineer, 2007--2008.
+		\end{itemize}
+		\item \textbf{ITC Ltd., Chennai}
+
+		\begin{itemize}
+			\item Assistant Manager 2006--2007.
+		\end{itemize}
+
+	\end{itemize}
+
+	\section*{\textbf{Honors}}
+
+	\begin{itemize}
+		\item Nominated for Weatherspoon Undergraduate Teaching Award, 2023
+		\item POMS CHOM Research-in-Practice Showcase Presentation, 2022
+		\item Finalist, INFORMS Innovative Application in Analytics Award, 2022
+		\item UCLA Dissertation Year Fellowship, 2015--2016.
+		\item UCLA Anderson Doctoral Fellowship, 2011--2015.
+		\item Fellowship for Post Graduate Studies, Government of India,  2005--2006.
+		\item National Talent Search Examination Scholarship, Government of India, 1999--2005.
+	\end{itemize}
+
+
+	\section*{\textbf{Publications}}
+
+	\subsection*{Peer-Reviewed Journal Articles}
+	
+	\emph{* indicates healthcare practitioner or physician collaborator}
+
+	\begin{itemize}
+			\item Deshpande V., Mundru N., \textbf{Rath, S.}, *Knowles M., *Rowe D., *Wood B.C. (2023),  Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency \emph{Operations Research} (35 pages)
+		\begin{itemize}
+			\item[\textendash] {Finalist}, INFORMS Innovative Application in Analytics Award (2022)
+			\item[\textendash] Selected for POMS College of Healthcare Operations Management Research-in-Practice Showcase Presentations (2022)
+			\item[\textendash] Media Coverage: Collaborating to Cut Hospital Costs\\ (https://www.kenan-flagler.unc.edu/research/collaborating-to-cut-hospital-costs/)
+		\end{itemize}
+		
+		\item \textbf{Rath, S.}, \& Rajaram, K. (2022). Staff Planning for Hospitals with Implicit Cost Estimation and Stochastic Optimization. \emph{Production and Operations Management}, 31(3), 1271-1289.
+		\begin{itemize}
+			\item[\textendash] Media Coverage: A Scheduling Tool that Considers Employee Preferences \emph{UCLA Anderson Review} (Nov 2021)
+		\end{itemize}
+		\item \textbf{Rath, S.}, Rajaram, K., \&* Mahajan, A. (2017). Integrated Anesthesiologist and Room Scheduling for Surgeries: Methodology and Application. \emph{Operations Research}, 65(6), 1460-1478. \mbox{(18 pages)}.
+		\item Wood, B.C., Konchan, S., Gay, S., \textbf{Rath, S.}, Deshpande, V. and Knowles, M., (2021). Data analysis of plastic surgery instrument trays yields significant cost savings and efficiency gains. \emph{Annals of Plastic Surgery}, 86(6S), pp.S635-S639.
+		\item Knowles, M., Gay, S.S., Konchan, S.K., Mendes, R., \textbf{Rath, S.}, Deshpande, V., Farber, M.A. and Wood, B.C., (2021). Data analysis of vascular surgery instrument trays yielded large cost and efficiency savings. \emph{Journal of Vascular Surgery}, 73(6), pp.2144-2153.
+		\item Deo, S., Rajaram, K., \textbf{Rath, S.}, Karmarkar, U. S., \& *Goetz, M. B. (2015). Planning for HIV Screening, Testing, and Care at the Veterans Health Administration. \emph{Operations Research}, 63(2), 287-304 (18 pages).
+	\end{itemize}
+\subsection*{Articles Under Review/Revision}
+\begin{itemize}
+\item Celik U., \textbf{Rath, S.}, Kesavan S., Staats B., Does Physician Choice of When to Perform EHR Tasks Influence Total EHR Workload? (35 pages) \emph{Under $2^{nd}$ round review at M\&SOM}
+\item \textbf{Rath, S.} Rajaram K., *Hudson, M.E., *Mahajan A., Multi-location, Dynamic Staff Planning for a Healthcare System: Methodology and Application (37 pages) \emph{Under Review at Operations Research}
+	
+
+\end{itemize}
+
+\subsection*{Working Papers}
+\begin{itemize}
+	\item \textbf{Rath, S.}, Swaminathan, J.M., *Coleman C., Collaborative Care for Mental and Physical Health (34 pages) \emph{Under preparation for submission}
+	
+\end{itemize}
+
+\subsection*{Work in Progress}
+
+\begin{itemize}
+	\item Celik U., \textbf{Rath, S.}, Staats B., Kesavan S.,  Reducing Appointment Delays: The Impact of 
+	Standardized EHR Usage on Physician Timeliness (\emph{Data collection complete, analysis in progress})
+	\item \textbf{Rath, S.}, *Lim M., Data-Driven Surgical Block Release Planning (\emph{Data collection complete, analysis in progress})
+	\item \textbf{Rath, S.}, Kesavan S.,   Staats B., Appointment Scheduling with Offline Discretionary Work (\emph{Data collection complete, analysis in progress})
+\end{itemize}
+\subsection*{Other Published Articles}
+
+\begin{itemize}
+	\item Rajaram, K., \& \textbf{Rath, S.} (2017). Managing the Operating Room Suite at UCLA Ronald Reagan Medical Center. \emph{Impact}, 3(2), 31-35.
+\end{itemize}
+
+
+%	\subsection*{Other Published Articles}
+%
+%	\begin{itemize}
+%		\item Rajaram, K., \& \textbf{Rath, S.} (2017). Managing the Operating Room Suite at UCLA Ronald Reagan Medical Center. Impact, 3(2), 31-35.
+%	\end{itemize}
+
+
+	\section*{\textbf{Teaching Record}}
+
+	\begin{itemize}
+		\item\textbf{ Undergraduate Program, Kenan-Flagler Business School, University of North
+			Carolina}
+		\begin{itemize}
+			\item BUSI 403: Operations Management, Undergraduate Core, \emph{Spring 2017-2023}, Average Instructor Rating: 4.67/5
+
+%			\begin{itemize}
+%%				\item \emph{Spring 2019}: In progress
+%%				\item \emph{Spring 2018}: Instructor Rating 4.58/5, 4.71/5
+%%				\item \emph{Spring 2017}: Instructor Rating 4.79/5, 4.69/5
+%
+%			\end{itemize}
+
+
+			\item BUSI 532H: Healthcare and Service Operations Management, Undergraduate Elective, \emph{Spring 2018-2023}, Average Instructor Rating: 4.69/5
+			\begin{itemize}
+				\item[\textendash] Course listed as Service Operations Management between 2018-2022
+			\end{itemize}
+%			\begin{itemize}
+%				\item \emph{Spring 2019}: In progress
+%				\item \emph{Spring 2018}: Instructor Rating 4.82/5
+%			\end{itemize}
+		\end{itemize}
+
+	\end{itemize}
+
+
+	\section*{\textbf{Peer-Reviewed Conference Presentations}}
+	\begin{itemize}
+
+		\item \emph{Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency}
+		\begin{itemize}
+			\item POMS College of Healthcare Operations Management Research-in-Practice Showcase Presentation (2022)
+		\end{itemize}
+
+		\item \emph{Collaborative Care for Mental and Physical Health}
+			\begin{itemize}
+				\item Manufacturing \& Service Operations Management Conference, 2022.
+			\item Manufacturing \& Service Operations Management Conference, 2021.
+		\end{itemize}
+		\item \emph{Staff Planning for Hospitals with Cost Estimation and
+			Optimization}
+		\begin{itemize}
+			\item Manufacturing \& Service Operations Management Conference, 2019.
+			\item Manufacturing \& Service Operations Management Conference, 2018.
+
+		\end{itemize}
+	\end{itemize}
+	\section*{\textbf{Invited Conference Presentations}}
+	\begin{itemize}
+			\item \emph{Data-Driven Approach to the Surgical Block Release Decision}
+		\begin{itemize}
+			\item INFORMS Annual Meeting (Phoenix 2023) 
+		\end{itemize}
+		\item \emph{Multilocation, Dynamic Staff Planning for a Healthcare System: Methodology and Application}
+		\begin{itemize}
+			\item POMS Annual Meeting (Orlando 2023) 
+		\end{itemize}
+		\item \emph{Data-driven Workforce Planning For Healthcare Organizations}
+		\begin{itemize}
+			\item INFORMS Annual Meeting (Indianapolis 2022) 
+		\end{itemize}
+		
+		\item \emph{Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency}
+		\begin{itemize}
+			\item POMS Annual Meeting (Online, 2022)
+		\end{itemize}
+		\item \emph{Appointment Scheduling with Off-line Discretionary Work}
+		\begin{itemize}
+			\item POMS Annual Conference (Online, 2022), INFORMS Annual Meeting  (Anaheim 2021).
+		\end{itemize}
+		\item \emph{Collaborative Care for Mental and Physical Health}
+		\begin{itemize}
+			\item POMS Annual Conference (Online, 2022), POMS Annual Conference (Online, 2021), INFORMS Annual Meeting (Seattle, 2019), INFORMS Healthcare (Boston, 2019), INFORMS Annual Meeting (Phoenix 2018).
+
+		\end{itemize}
+		\item \emph{Staff Planning For Anesthesiologists}
+		\begin{itemize}
+			%\item INFORMS Annual Meeting, Phoenix 2018 (presented by co-author).
+			\item INFORMS Annual Meeting (Seattle, 2019), INFORMS Healthcare (Boston, 2019), INFORMS Annual Meeting (Houston, 2017), INFORMS Annual Meeting (Nashville, 2016)
+
+		\end{itemize}
+		\item \emph{Integrated Staff and Room Scheduling for Surgeries}
+		\begin{itemize}
+			\item INFORMS Healthcare (Rotterdam, 2017), INFORMS Annual Meeting (Nashville, 2016), INFORMS Annual Meeting (Philadelphia, 2015), INFORMS Healthcare, (Nashville, 2015)
+		\end{itemize}
+		\item \emph{Planning for HIV Screening, Testing, and Care}
+		\begin{itemize}
+			\item INFORMS Annual Meeting, San Francisco, 2014.
+		\end{itemize}
+	\end{itemize}
+	\section*{\textbf{Other Invited Presentations}}
+
+
+	\begin{itemize}
+
+		\item University of Kansas School of Business (scheduled, April 2024)
+		\item Workshop in Management Science, San Pedro de Atacama, Chile (scheduled, December 2023)
+		\item Carlson School of Management, University of Minnesota (scheduled, November 2023)
+		\item Johns Hopkins Carey Business School (scheduled, November, 2023)
+		\item Robert H. Smith School of Business, University of Maryland (scheduled, November 2023)
+		\item UNC Kenan-Flagler Center for the Business of Health Faculty Research Share Session (scheduled, October 2023)
+		\item Midwest Healthcare Workshop, Geis College of Business, UIUC, 2023
+		\item Department of Statistics and Operations Research, UNC, 2023
+		\item Sloan School of Management, MIT, 2023
+		\item Carroll School of Management, Boston College, 2023 
+		\item NC State Doing Good with OM/OR Workshop, 2022
+		\item Kelley School of Business, Indiana University, Consortium Friday Seminar Series (online), 2021
+		\item UNC Business of Healthcare Convocation, Chapel Hill, 2019
+		\item Kenan-Flagler Business School, University of North Carolina, Chapel-Hill, 2015.
+		\item Communication, Networks and Systems Seminar, University of Southern California, 2015.
+		\item Southern California OR/OM Day, Los Angeles, 2015.
+		\item DOTM Colloquium Series, UCLA Anderson, 2015.
+	
+			
+
+\end{itemize}
+
+
+	\section*{\textbf{Professional Service}}
+	\subsection*{To the Discipline}
+	\begin{itemize}
+		\item \textbf{Reviewer}
+		\begin{itemize}
+
+			\item California Management Review, IISE Transactions,  Management Science, Manufacturing \& Service Operations Management, Naval Research Logistics, Operations Research, Production and Operations Management %(h-index: 209), Number of papers reviewed: 1
+
+
+		\end{itemize}
+		\item \textbf{Judge}
+		\begin{itemize}
+				\item INFORMS Health Application Society Best Student Paper Competition, 2023
+			\item INFORMS Public Sector OR Best Paper Competition, 2022
+			\item MSOM Conference Healthcare SIG, 2021, 2022, 2023
+			\item Pierskalla Best Paper Award, 2020
+			\item POMS College of Healthcare Operations Management, Best Paper Competition, 2017, 2020, 2021, 2022, 2023
+		\end{itemize}
+		\item \textbf{Conference Track Chair}
+	\begin{itemize}
+		\item POMS Annual Meeting, Orlando (2023)
+	\end{itemize}
+		\item \textbf{Conference Session Chair}
+		\begin{itemize}
+			\item  INFORMS Annual Meetings: Phoenix (\emph{scheduled}, 2023), Anaheim (2021), Seattle (2019), Phoenix (2018, co-chair with Jayashankar  Swaminathan), Houston (2017), Philadelphia (2015)
+			\item INFORMS Healthcare: Toronto (\emph{scheduled}, 2023), Boston (2019), Nashville (2015)
+			\end{itemize}
+
+	\end{itemize}
+	\subsection*{Within UNC Chapel Hill}
+	\begin{itemize}
+		\item Organizing Committee Member, UNC Healthcare Operations Workshop, 2019
+		\item Operations Area Faculty Seminar Series, Chair, 2017-2019.
+		\item Organizing Committee Member, Manufacturing \& Service Operations Management Conference, 2017.
+	\end{itemize}
+\section*{\textbf{References}}
+\emph{Available on request}
+	\updateinfo[\today]
+
+\end{document}
