@@ -12,4 +12,4 @@ toc:
 
 {% include base_path %}
 
-<object data="{{ base_path }}/pdf/sandeep_rath_resume.pdf#toolbar=0&navpanes=0" width="1000" height="1000" type='application/pdf'></object>
+<object data="{{ base_path }}/assets/pdf/sandeep_rath_resume.pdf#toolbar=0&navpanes=0" width="1000" height="1000" type='application/pdf'></object>
