@@ -18,14 +18,14 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-I am an Assistant Professor of Operations Management at the Kenan-Flagler Business School, The University of North Carolina at Chapel Hill. 
+I am an Assistant Professor of Operations Management at the Indian School of Business. Previously, I was on the faculty at the Kenan-Flagler Business School, The University of North Carolina at Chapel Hill.
 
-My approach to research involves close collaboration with hospitals, providers, and technology firms to pinpoint critical issues related to resource allocation that arise in healthcare systems. My research encompasses a variety of methodologies. I combine predictive and prescriptive methods, including data-driven optimization, large-scale linear and integer programming, robust optimization, machine learning, dynamic programming, and causal inference. My model-based approach culminates in actionable solutions and valuable insights for healthcare administrators.
+My approach to research involves close collaboration with hospitals, providers, and technology firms to pinpoint critical issues related to resource allocation that arise in healthcare systems. I use a range of predictive and prescriptive methods, including data-driven optimization, large-scale linear and integer programming, robust optimization, machine learning, dynamic programming, and causal inference. My model-based approach culminates in actionable solutions and valuable insights for healthcare administrators.
 
-I have collaborated with technology firms and healthcare systems such as, Veterans Health Los Angeles, UCLA Ronald Regan Medical Center, UNC Health, Opflow, University of Pittsburgh Medical Center.
+I have collaborated with technology firms and healthcare systems such as Veterans Health Los Angeles, UCLA Ronald Reagan Medical Center, UNC Health, Opflow, and the University of Pittsburgh Medical Center. I also consult for healthcare technology firms working to improve digital analytics tools for healthcare providers in India and the U.S.
 
 My research has been a finalist for the INFORMS Applied Analytics Award and has won the UNC Kenan-Flagler Business School Bullard Faculty Research Impact Award.
 
-I teach Operations Management and Healthcare and Service Operations Management at the Kenan Flagler Business School.
+I have taught courses in Operations Management, Prescriptive Analytics, Service Operations, and Healthcare Operations at both the Indian School of Business and UNC Kenan-Flagler.
 
 My detailed CV is available [here](/assets/pdf/sandeep_rath_CV.pdf) and a brief resume is available [here](/assets/pdf/sandeep_rath_short_resume.pdf)
