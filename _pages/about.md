@@ -28,4 +28,4 @@ My research has been a finalist for the INFORMS Applied Analytics Award and has 
 
 I have taught courses in Operations Management, Prescriptive Analytics, Service Operations, and Healthcare Operations at both the Indian School of Business and UNC Kenan-Flagler.
 
-My detailed CV is available [here](/assets/pdf/sandeep_rath_CV.pdf) and a brief resume is available [here](/assets/pdf/sandeep_rath_short_resume.pdf)
+My detailed CV is available [here](/assets/pdf/sandeep_rath_resume.pdf). and a brief resume is available here [here](/assets/pdf/sandeep_rath_short_resume.pdf).
