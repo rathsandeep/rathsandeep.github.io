@@ -18,14 +18,14 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-I am an Assistant Professor of Operations Management at the Indian School of Business. Previously, I was on the faculty at the Kenan-Flagler Business School, The University of North Carolina at Chapel Hill.
+I am an Assistant Professor of Operations Management at the Indian School of Business, and formerly on the faculty at the Kenan-Flagler Business School, UNC Chapel Hill (2016–2025). My work sits at the intersection of operations research, clinical AI, and health systems—translating rigorous quantitative methods into tools that hospitals and health technology firms can actually deploy.
 
-My approach to research involves close collaboration with hospitals, providers, and technology firms to pinpoint critical issues related to resource allocation that arise in healthcare systems. I use a range of predictive and prescriptive methods, including data-driven optimization, large-scale linear and integer programming, robust optimization, machine learning, dynamic programming, and causal inference. My model-based approach culminates in actionable solutions and valuable insights for healthcare administrators.
+Over the past decade, I have partnered with major health systems—the Veterans Health Administration, UCLA Ronald Reagan Medical Center, UNC Health, and the University of Pittsburgh Medical Center—to build and implement models for surgical scheduling, workforce planning, care coordination, and OR efficiency. These deployments have generated millions of dollars in documented annual savings. My methods span mixed-integer optimization, machine learning, causal inference, dynamic programming, and simulation.
 
-I have collaborated with technology firms and healthcare systems such as Veterans Health Los Angeles, UCLA Ronald Reagan Medical Center, UNC Health, Opflow, and the University of Pittsburgh Medical Center. I also consult for healthcare technology firms working to improve digital analytics tools for healthcare providers in India and the U.S.
+My research has been recognized with the Bullard Faculty Research Impact Award (UNC, 2024) and as a finalist for the INFORMS Innovative Application in Analytics Award. My research is published in *Operations Research*, *Production and Operations Management*, and *Manufacturing & Service Operations Management*.
 
-My research has been a finalist for the INFORMS Applied Analytics Award and has won the UNC Kenan-Flagler Business School Bullard Faculty Research Impact Award.
+Beyond academic research, I advise early-stage health technology companies on clinical AI strategy, product development, and workflow integration. On the policy side, I work with government and industry bodies to advance healthcare digitization and AI adoption.
 
-I have taught courses in Operations Management, Prescriptive Analytics, Service Operations, and Healthcare Operations at both the Indian School of Business and UNC Kenan-Flagler.
 
-My detailed CV is available [here](/assets/pdf/sandeep_rath_resume.pdf). and a brief resume is available here [here](/assets/pdf/sandeep_rath_short_resume.pdf).
+
+My detailed academic CV is available [here](/assets/pdf/sandeep_rath_resume.pdf) and a brief resume is available [here](/assets/pdf/sandeep_resume_short_resume.pdf).
