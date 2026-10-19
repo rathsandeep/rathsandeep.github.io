@@ -1,0 +1,113 @@
+# Talks and events, from the detailed CV. Newest first within each group.
+# Items with home: true appear on the home page (first 4).
+
+panels:
+  - title: "Building India's Digital Health Ecosystem"
+    role: Panel moderator
+    event: NABH Patient Safety Conference
+    location: New Delhi
+    year: 2026
+    home: true
+  - title: "Operationalising AI: Aligning Workflows and Measuring Impact in Hospital Settings"
+    role: Panel moderator
+    event: ISB Healthcare 4.0
+    location: Hyderabad
+    year: 2026
+    home: true
+  - title: "Operationalizing AI in Healthcare"
+    role: Panel moderator
+    event: ISB Healthcare Catalyst
+    location: Hyderabad
+    year: 2026
+  - title: "Data Science and Digital Technologies in Healthcare Administration"
+    role: Panel moderator
+    event: ISB Insights Forum
+    location: Mohali
+    year: 2025
+
+industry:
+  - title: "Telehealth delivery"
+    role: Speaker
+    event: "Digi Health Conclave, Department of Health, Medical Education & Family Welfare, Government of Jharkhand"
+    location: Jharkhand
+    year: 2026
+    home: true
+  - event: Yashoda Hospitals AI 2.0 Workshop
+    role: Speaker
+    location: Hyderabad
+    year: 2026
+    home: true
+  - event: Sindhu Hospital
+    role: Speaker
+    location: Hyderabad
+    year: 2025
+  - event: ApMoSys Technologies
+    role: Speaker
+    location: Mumbai
+    year: 2025
+
+seminars:
+  - event: ISB Insights Forum
+    location: Mohali
+    year: 2025
+  - event: Indian School of Business
+    location: Hyderabad
+    year: 2024
+  - event: University of Kansas School of Business
+    year: 2024
+  - event: Workshop in Management Science
+    location: San Pedro de Atacama, Chile
+    year: 2023
+  - event: Carlson School of Management, University of Minnesota
+    year: 2023
+  - event: Johns Hopkins Carey Business School
+    year: 2023
+  - event: Robert H. Smith School of Business, University of Maryland
+    year: 2023
+  - event: UNC Kenan-Flagler Center for the Business of Health Faculty Research Share Session
+    year: 2023
+  - event: Midwest Healthcare Workshop, Gies College of Business, UIUC
+    year: 2023
+  - event: Department of Statistics and Operations Research, UNC
+    year: 2023
+  - event: Sloan School of Management, MIT
+    year: 2023
+  - event: Carroll School of Management, Boston College
+    year: 2023
+  - event: NC State Doing Good with OM/OR Workshop
+    year: 2022
+  - event: Kelley School of Business, Indiana University, Consortium Friday Seminar Series (online)
+    year: 2021
+  - event: UNC Business of Healthcare Convocation
+    location: Chapel Hill
+    year: 2019
+  - event: Kenan-Flagler Business School, University of North Carolina
+    location: Chapel Hill
+    year: 2015
+  - event: Communication, Networks and Systems Seminar, University of Southern California
+    year: 2015
+  - event: Southern California OR/OM Day
+    location: Los Angeles
+    year: 2015
+  - event: DOTM Colloquium Series, UCLA Anderson
+    year: 2015
+
+conferences:
+  - title: Data-Driven Approach to the Surgical Block Release Decision
+    venues: "INFORMS Annual Meeting (Atlanta, 2025); POMS Annual Meeting (Atlanta, 2025); INFORMS Annual Meeting (Seattle, 2024); INFORMS Annual Meeting (Phoenix, 2023)"
+  - title: "Multilocation, Dynamic Staff Planning for a Healthcare System"
+    venues: "INFORMS Annual Meeting (Atlanta, 2025, presented by co-author); POMS Annual Meeting (Orlando, 2023)"
+  - title: Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency
+    venues: "POMS CHOM Research-in-Practice Showcase (2022); POMS Annual Meeting (online, 2022)"
+  - title: Data-Driven Workforce Planning for Healthcare Organizations
+    venues: "INFORMS Annual Meeting (Indianapolis, 2022)"
+  - title: Appointment Scheduling with Off-line Discretionary Work
+    venues: "POMS Annual Meeting (online, 2022); INFORMS Annual Meeting (Anaheim, 2021)"
+  - title: Collaborative Care for Mental and Physical Health
+    venues: "MSOM Conference (2022, 2021); POMS Annual Meeting (online, 2022, 2021); INFORMS Annual Meeting (Seattle, 2019); INFORMS Healthcare (Boston, 2019); INFORMS Annual Meeting (Phoenix, 2018)"
+  - title: Staff Planning for Anesthesiologists
+    venues: "MSOM Conference (2019, 2018); INFORMS Annual Meeting (Seattle, 2019); INFORMS Healthcare (Boston, 2019); INFORMS Annual Meeting (Phoenix, 2018, presented by co-author); INFORMS Annual Meeting (Houston, 2017); INFORMS Annual Meeting (Nashville, 2016)"
+  - title: Integrated Staff and Room Scheduling for Surgeries
+    venues: "INFORMS Healthcare (Rotterdam, 2017); INFORMS Annual Meeting (Nashville, 2016); INFORMS Annual Meeting (Philadelphia, 2015); INFORMS Healthcare (Nashville, 2015)"
+  - title: Planning for HIV Screening, Testing, and Care
+    venues: "INFORMS Annual Meeting (San Francisco, 2014)"

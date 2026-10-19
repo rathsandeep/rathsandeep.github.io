@@ -3,6 +3,21 @@
   outlet: Healthcare Executive
   year: 2026
   url: https://www.healthcareexecutive.in/blog/digital-may
+- title: "NABH-Accredited Hospitals Show Gains in Digital Maturity, Efficiency: ISB White Paper"
+  outlet: Telangana Today
+  year: 2026
+  url: https://telanganatoday.com/nabh-accredited-hospitals-show-gains-in-digital-maturity-efficiency-isb-white-paper
+  home: false # NABH coverage; the home page shows only the Healthcare Executive interview
+- title: "Digital Health Standards Show Gains in Hospitals, Finds ISB Study"
+  outlet: Deccan Chronicle
+  year: 2026
+  url: https://www.deccanchronicle.com/southern-states/telangana/digital-health-standards-show-gains-in-hospitals-finds-isb-study-1982799
+  home: false
+- title: "ISB Study Finds NABH Digital Health Standards Are Delivering Measurable Gains in Indian Hospitals"
+  outlet: PNI News
+  year: 2026
+  url: https://www.pninews.com/isb-study-finds-nabh-digital-health-standardsare-delivering-measurable-gains-in-indian-hospitals/
+  home: false
 - title: "New Research Finds Data-Driven Staffing Model Delivers Major Cost Savings for Health Care Systems"
   outlet: Medical Xpress
   home: false # near-duplicate of the INFORMS release; shown only on the media page
@@ -36,3 +51,7 @@
   outlet: UCLA Anderson Review
   year: 2021
   url: https://anderson-review.ucla.edu/a-scheduling-tool-that-considers-employee-preferences/
+- title: "Picked All the Low-Hanging Fruit? Finding Opportunity in Mathematical Models"
+  outlet: UCLA Anderson Review
+  year: 2020
+  url: https://anderson-review.ucla.edu/math-ors/

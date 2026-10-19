@@ -1,0 +1,11 @@
+{% assign shown = 0 %}
+<ul class="talks-list">
+  {% assign pool = site.data.talks.panels | concat: site.data.talks.industry %}
+  {% for t in pool %}
+    {% if t.home %}
+      {% if shown >= include.limit %}{% break %}{% endif %}
+      {% assign shown = shown | plus: 1 %}
+      {% include talk_item.liquid t=t %}
+    {% endif %}
+  {% endfor %}
+</ul>

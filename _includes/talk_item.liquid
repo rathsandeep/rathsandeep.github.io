@@ -1,0 +1,4 @@
+<li>
+  {% if include.t.title %}<strong>{{ include.t.title }}</strong>{% if include.t.role %} ({{ include.t.role | downcase }}){% endif %}<br>{% endif %}
+  {{ include.t.event }}{% if include.t.location %}, {{ include.t.location }}{% endif %}, {{ include.t.year }}
+</li>
