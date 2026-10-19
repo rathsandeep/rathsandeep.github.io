@@ -28,8 +28,8 @@ nav_order: 2
 </div>
 
 <h3>Work in progress</h3>
-<div class="publications">
-  {% bibliography --group_by year --group_order descending --query @*[inprogress=true]* %}
+<div class="publications no-years">
+  {% bibliography --group_by none --query @*[inprogress=true]* %}
 </div>
 
 </div>

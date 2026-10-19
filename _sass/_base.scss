@@ -1300,3 +1300,11 @@ swiper-container {
 .teaching-row .talk-items li {
   margin-bottom: 0.7rem;
 }
+
+// Work in progress: no year column
+.pub-timeline .publications.no-years {
+  display: block;
+  ol.bibliography {
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
