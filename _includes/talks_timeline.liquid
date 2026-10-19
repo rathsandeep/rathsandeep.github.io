@@ -1,0 +1,51 @@
+{% comment %}
+  Year-by-year timeline. Params: items (list), kind ('seminar' or 'conference'),
+  cutoff (years before this are folded under "Earlier presentations").
+{% endcomment %}
+{% assign years = include.items | group_by: 'year' | sort: 'name' | reverse %}
+{% assign cutoff = include.cutoff | append: '' %}
+{% capture recent %}{% endcapture %}
+{% capture earlier %}{% endcapture %}
+{% assign first_year = '' %}
+{% assign last_year = '' %}
+{% for y in years %}
+  {% capture row %}
+    <div class="talk-year-row">
+      <div class="talk-year">{{ y.name }}</div>
+      <ul class="talk-items">
+        {% if include.kind == 'conference' %}
+          {% assign by_paper = y.items | group_by: 'paper' %}
+          {% for g in by_paper %}
+            <li>
+              {{ g.name }}:
+              {% for t in g.items %}
+                {{ t.event }}{% if t.location or t.note %} <span class="talk-loc">({{ t.location }}{% if t.location and t.note %}, {% endif %}{{ t.note }})</span>{% endif %}{% unless forloop.last %};{% endunless %}
+              {% endfor %}
+            </li>
+          {% endfor %}
+        {% else %}
+          {% for t in y.items %}
+            <li>{{ t.event }}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}</li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+  {% endcapture %}
+  {% assign yname = y.name | append: '' %}
+  {% if yname >= cutoff %}
+    {% capture recent %}{{ recent }}{{ row }}{% endcapture %}
+  {% else %}
+    {% capture earlier %}{{ earlier }}{{ row }}{% endcapture %}
+    {% if last_year == '' %}{% assign last_year = yname %}{% endif %}
+    {% assign first_year = yname %}
+  {% endif %}
+{% endfor %}
+<div class="talk-timeline">
+  {{ recent }}
+  {% if earlier != '' %}
+    <details class="talk-earlier">
+      <summary>Earlier presentations ({{ first_year }}–{{ last_year }})</summary>
+      {{ earlier }}
+    </details>
+  {% endif %}
+</div>

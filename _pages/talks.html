@@ -1,0 +1,19 @@
+---
+layout: page
+permalink: /talks/
+title: talks
+nav: true
+nav_order: 4
+---
+
+<h3>Invited seminars</h3>
+{% include talks_timeline.liquid items=site.data.talks.seminars kind='seminar' cutoff=2022 %}
+
+<h3>Conference presentations</h3>
+{% include talks_timeline.liquid items=site.data.talks.conferences kind='conference' cutoff=2022 %}
+
+<h3>Panels and industry talks</h3>
+<ul class="talks-list">
+  {% for t in site.data.talks.panels %}{% include talk_item.liquid t=t %}{% endfor %}
+  {% for t in site.data.talks.industry %}{% include talk_item.liquid t=t %}{% endfor %}
+</ul>
