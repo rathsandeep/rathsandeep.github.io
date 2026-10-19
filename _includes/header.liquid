@@ -65,7 +65,7 @@
               {% if p.flat_links %}
                 <!-- Plain top-bar links (e.g. CV files) -->
                 {% for child in p.children %}
-                  <li class="nav-item">
+                  <li class="nav-item {% if page.url == child.permalink %}active{% endif %}">
                     <a class="nav-link" href="{{ child.permalink | relative_url }}">{{ child.title }}</a>
                   </li>
                 {% endfor %}

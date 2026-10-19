@@ -1381,3 +1381,33 @@ swiper-container {
 .home-main .publications {
   margin-top: 0 !important;
 }
+
+// Inline PDF viewer (cv and resume pages)
+.pdf-actions {
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+  i {
+    margin-right: 0.25rem;
+  }
+  .sep {
+    margin: 0 0.6rem;
+    color: var(--global-text-color-light);
+  }
+}
+.pdf-container {
+  width: 100%;
+}
+.pdf-page {
+  display: block;
+  margin: 0 auto 1.25rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.pdf-loading {
+  color: var(--global-text-color-light);
+}
+.pdf-fallback {
+  width: 100%;
+  height: 85vh;
+  border: 1px solid var(--global-divider-color);
+}
