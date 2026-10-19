@@ -26,9 +26,8 @@ panels:
     year: 2025
 
 industry:
-  - title: "Telehealth delivery"
+  - event: "Talk on telehealth delivery, Digi Health Conclave, Department of Health, Medical Education & Family Welfare, Government of Jharkhand"
     role: Speaker
-    event: "Digi Health Conclave, Department of Health, Medical Education & Family Welfare, Government of Jharkhand"
     location: Jharkhand
     year: 2026
     home: true

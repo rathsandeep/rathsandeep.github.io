@@ -28,6 +28,6 @@ nav_order: 4
 
 <ul class="talks-list">
 {% for c in site.data.talks.conferences %}
-  <li><strong>{{ c.title }}</strong><br>{{ c.venues }}</li>
+  <li>{{ c.title }}: {{ c.venues }}</li>
 {% endfor %}
 </ul>
