@@ -92,8 +92,9 @@
         {% endif %}
       {% endfor %}
       {% endcapture %}
-      {{ author_list | split: ' ' | join: ' ' | replace: ' ,', ',' }}
       {% assign more_authors = author_array_size | minus: author_array_limit %}
+      {% if more_authors > 0 %}{% assign author_list = author_list | append: ' , and' %}{% endif %}
+      {{ author_list | split: ' ' | join: ' ' | replace: ' ,', ',' }}
 
       {% assign more_authors_hide = more_authors | append: ' more author' %}
       {% if more_authors > 0 %}
@@ -107,7 +108,6 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {% endfor %}
-        , and
         <span
           class="more-authors"
           title="click to view {{more_authors_hide}}"

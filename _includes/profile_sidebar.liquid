@@ -1,0 +1,35 @@
+{% assign p = page.profile %}
+<div class="sidebar-photo">
+  <img src="{{ p.image | prepend: '/assets/img/' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}" class="rounded-circle">
+</div>
+<div class="sidebar-name">{{ site.first_name }} {{ site.last_name }}</div>
+{% if p.position %}<div class="sidebar-position">{{ p.position }}</div>{% endif %}
+{% if p.affiliation %}
+  <div class="sidebar-affiliation">
+    {% if site.work_url %}<a href="{{ site.work_url }}">{{ p.affiliation }}</a>{% else %}{{ p.affiliation }}{% endif %}
+  </div>
+{% endif %}
+<ul class="sidebar-links">
+  {% if site.email %}
+    <li><a href="mailto:{{ site.email | encode_email }}"><i class="fa-solid fa-envelope fa-fw"></i> Email</a></li>
+  {% endif %}
+  {% if site.work_url %}
+    <li><a href="{{ site.work_url }}"><i class="fa-solid fa-building-columns fa-fw"></i> ISB Profile</a></li>
+  {% endif %}
+  {% if site.scholar_userid %}
+    <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar fa-fw"></i> Google Scholar</a></li>
+  {% endif %}
+  {% if site.orcid_id %}
+    <li><a href="https://orcid.org/{{ site.orcid_id }}"><i class="ai ai-orcid fa-fw"></i> ORCID</a></li>
+  {% endif %}
+  {% if site.linkedin_username %}
+    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin fa-fw"></i> LinkedIn</a></li>
+  {% endif %}
+  {% if site.github_username %}
+    <li><a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github fa-fw"></i> GitHub</a></li>
+  {% endif %}
+  {% if site.x_username %}
+    <li><a href="https://x.com/{{ site.x_username }}"><i class="fa-brands fa-x-twitter fa-fw"></i> X</a></li>
+  {% endif %}
+  <li><a href="{{ '/assets/pdf/sandeep_rath_resume.pdf' | relative_url }}"><i class="fa-solid fa-file-lines fa-fw"></i> CV</a></li>
+</ul>

@@ -5,12 +5,9 @@ permalink: /
 subtitle:
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><a href="https://www.isb.edu/faculty-and-research/faculty-directory/sandeep-rath">Indian School of Business, Hyderabad</a></p>
-    <p><a href="mailto:sandeep_rath@isb.edu">sandeep_rath@isb.edu</a></p>
+  position: Assistant Professor of Operations Management
+  affiliation: Indian School of Business, Hyderabad
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"

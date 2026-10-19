@@ -1127,3 +1127,80 @@ swiper-container {
     color: var(--global-text-color-light);
   }
 }
+
+// Home page: left profile sidebar (academicpages-style)
+.home-layout {
+  margin-top: 1rem;
+}
+.profile-sidebar {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  .sidebar-photo img {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid var(--global-divider-color);
+  }
+  .sidebar-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .sidebar-position,
+  .sidebar-affiliation {
+    color: var(--global-text-color-light);
+    line-height: 1.35;
+    margin-top: 0.25rem;
+  }
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 1.25rem 0 0;
+    li {
+      margin-bottom: 0.45rem;
+    }
+    a {
+      color: var(--global-text-color);
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+    i {
+      color: var(--global-text-color-light);
+      margin-right: 0.35rem;
+    }
+  }
+}
+.home-main .home-heading {
+  font-size: 1.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .profile-sidebar {
+    position: sticky;
+    top: 5rem;
+    align-self: flex-start;
+  }
+}
+@media (max-width: 767px) {
+  .profile-sidebar {
+    text-align: center;
+    .sidebar-photo img {
+      max-width: 150px;
+    }
+    .sidebar-links li {
+      display: inline-block;
+      margin: 0 0.5rem 0.4rem;
+    }
+  }
+}
+
+// Home page section headings match the "About me" heading
+.home-main h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
