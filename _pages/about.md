@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Indian School of Business, Hyderabad</p>
+    <p><a href="https://www.isb.edu/faculty-and-research/faculty-directory/sandeep-rath">Indian School of Business, Hyderabad</a></p>
     <p><a href="mailto:sandeep_rath@isb.edu">sandeep_rath@isb.edu</a></p>
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
