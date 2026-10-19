@@ -34,6 +34,7 @@ layout: default
         <a href="{{ '/research/' | relative_url }}" style="color: inherit">Recent publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      <p class="more-link"><a href="{{ '/research/' | relative_url }}">All research &rarr;</a></p>
     {% endif %}
 
         <!-- Working papers -->
@@ -57,7 +58,8 @@ layout: default
       <h2>
         <a href="{{ '/talks/' | relative_url }}" style="color: inherit">Talks and events</a>
       </h2>
-      {% include talks_home.liquid limit=4 %}
+      {% include talks_home.liquid limit=3 %}
+      <p class="more-link"><a href="{{ '/talks/' | relative_url }}">All talks &rarr;</a></p>
     {% endif %}
 
     <!-- Media -->
@@ -65,7 +67,8 @@ layout: default
       <h2>
         <a href="{{ '/media/' | relative_url }}" style="color: inherit">In the media</a>
       </h2>
-      {% include media.liquid limit=4 %}
+      {% include media.liquid limit=3 %}
+      <p class="more-link"><a href="{{ '/media/' | relative_url }}">All media &rarr;</a></p>
     {% endif %}
 
     <!-- Social -->

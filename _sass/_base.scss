@@ -722,7 +722,6 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
         }
 
@@ -1306,5 +1305,55 @@ swiper-container {
   display: block;
   ol.bibliography {
     border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+// Paper links: plain bracketed text on the journal line, no boxes
+.publications ol.bibliography li .journal-line,
+.publications ol.bibliography li .links {
+  display: inline;
+}
+.publications ol.bibliography li .links {
+  margin-left: 0.4rem;
+  a.btn {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 0.35rem 0 0 !important;
+    font-size: 0.85rem !important;
+    text-transform: none !important;
+    color: var(--global-theme-color) !important;
+    &::before { content: "["; color: var(--global-text-color-light); }
+    &::after { content: "]"; color: var(--global-text-color-light); }
+    &:hover { color: var(--global-hover-color) !important; text-decoration: underline; }
+  }
+}
+// Home page: no abstract link, small-caps section labels, "more" links
+.home-main .publications a.abstract.btn {
+  display: none !important;
+}
+.home-main h2 {
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+  margin-top: 2.25rem !important;
+  a { color: inherit; }
+}
+.more-link {
+  font-size: 0.9rem;
+  margin-top: -0.25rem;
+}
+
+// Home page: plain lists for talks and media (no bullets, no indent)
+.home-main ul.talks-list,
+.home-main ul.media-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  li {
+    margin-bottom: 0.5rem;
   }
 }
