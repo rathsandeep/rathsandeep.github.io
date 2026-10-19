@@ -59,7 +59,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/research/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">recent publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -78,6 +78,14 @@ layout: default
         <a href="{{ '/research/' | relative_url }}" style="color: inherit">work in progress</a>
       </h2>
       {% include inprogress_papers.liquid %}
+    {% endif %}
+
+    <!-- Media -->
+    {% if page.media %}
+      <h2>
+        <a href="{{ '/media/' | relative_url }}" style="color: inherit">in the media</a>
+      </h2>
+      {% include media.liquid limit=6 %}
     {% endif %}
 
     <!-- Social -->

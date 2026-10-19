@@ -14,18 +14,20 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 working_papers: true
 inprogress_papers: true
+media: true # shows the 6 most recent items from _data/media.yml
 social: false # includes social icons at the bottom of the page
 ---
 
 
-I am an Assistant Professor of Operations Management at the Indian School of Business, and formerly on the faculty at the Kenan-Flagler Business School, UNC Chapel Hill (2016–2025). My work sits at the intersection of operations research, clinical AI, and health systems—translating rigorous quantitative methods into tools that hospitals and health technology firms can actually deploy.
+I am an Assistant Professor of Operations Management at the Indian School of Business (ISB). Before joining ISB in 2025, I was on the faculty of the Kenan-Flagler Business School at UNC Chapel Hill (2016–2025). I received my PhD in Management from UCLA Anderson.
 
-Over the past decade, I have partnered with major health systems—the Veterans Health Administration, UCLA Ronald Reagan Medical Center, UNC Health, and the University of Pittsburgh Medical Center—to build and implement models for surgical scheduling, workforce planning, care coordination, and OR efficiency. These deployments have generated millions of dollars in documented annual savings. My methods span mixed-integer optimization, machine learning, causal inference, dynamic programming, and simulation.
+My research uses optimization and causal inference to improve how hospitals and health systems operate. With optimization, I study how hospitals should manage specialized, expensive resources such as clinical staff, operating rooms, and medical inventory when patient demand is highly variable. I work with practitioners to identify decisions that are made ad hoc, build integer, stochastic, robust, and dynamic programming models whose inputs are estimated from electronic health record (EHR) data, and test them against the hospital's past decisions. Models from this work have been implemented at multiple health systems in the US. With causal inference, I study how digitization has changed the work of physicians. Using econometric and machine learning methods on EHR data, I estimate how the timing of EHR tasks and the use of documentation templates affect physician workload and the delays patients experience.
 
-My research has been recognized with the Bullard Faculty Research Impact Award (UNC, 2024) and as a finalist for the INFORMS Innovative Application in Analytics Award. My research is published in *Operations Research*, *Production and Operations Management*, and *Manufacturing & Service Operations Management*.
+My papers are published in *Operations Research*, *Production and Operations Management*, and *Manufacturing & Service Operations Management*. My work received the Bullard Faculty Research Impact Award (UNC Kenan-Flagler, 2024) and was a finalist for the INFORMS Innovative Applications in Analytics Award (2022). 
 
-Beyond academic research, I advise early-stage health technology companies on clinical AI strategy, product development, and workflow integration. On the policy side, I work with government and industry bodies to advance healthcare digitization and AI adoption.
+At ISB, I teach the core Operations Management course and an elective on Managing Services in a Digital World, along with executive courses in healthcare and service operations. 
 
 
+My current interests are in how digitization and AI are changing hospital operations in India, and how AI tools can improve the administrative functions of a hospital. I am also interested in applying causal inference and optimization methods to other service delivery settings, such as online retail.
 
 My detailed academic CV is available [here](/assets/pdf/sandeep_rath_resume.pdf) and a brief resume is available [here](/assets/pdf/sandeep_resume_short_resume.pdf).

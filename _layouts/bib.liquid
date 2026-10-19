@@ -164,6 +164,12 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
+      {% if entry.ssrn %}
+        <a href="{{ entry.ssrn }}" class="btn btn-sm z-depth-0" role="button">SSRN</a>
+      {% endif %}
+      {% if entry.journal_url %}
+        <a href="{{ entry.journal_url }}" class="btn btn-sm z-depth-0" role="button">{{ entry.journal }}</a>
+      {% endif %}
       {% if entry.html %}
         <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
       {% endif %}
