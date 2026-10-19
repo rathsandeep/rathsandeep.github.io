@@ -1112,3 +1112,18 @@ swiper-container {
 .show-abstracts .publications a.abstract.btn {
   display: none;
 }
+
+// Research page: profile links under the title
+.research-profiles {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  i {
+    font-size: 1.2rem;
+    margin-right: 0.2rem;
+    vertical-align: -0.1rem;
+  }
+  .sep {
+    margin: 0 0.6rem;
+    color: var(--global-text-color-light);
+  }
+}
