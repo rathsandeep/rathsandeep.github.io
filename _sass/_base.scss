@@ -1461,3 +1461,17 @@ swiper-container {
     margin-bottom: 0.25rem;
   }
 }
+
+// Home page: all section headings (including "About me") small, sentence case
+.home-main .home-heading,
+.home-main h2 {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  color: var(--global-text-color) !important;
+  margin-bottom: 0.75rem !important;
+}
+.home-main .home-heading {
+  margin-top: 0 !important;
+}
