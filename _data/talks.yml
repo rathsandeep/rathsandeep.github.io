@@ -91,22 +91,121 @@ seminars:
   - event: DOTM Colloquium Series, UCLA Anderson
     year: 2015
 
-conferences:
-  - title: Data-Driven Approach to the Surgical Block Release Decision
-    venues: "INFORMS Annual Meeting (Atlanta, 2025); POMS Annual Meeting (Atlanta, 2025); INFORMS Annual Meeting (Seattle, 2024); INFORMS Annual Meeting (Phoenix, 2023)"
-  - title: "Multilocation, Dynamic Staff Planning for a Healthcare System"
-    venues: "INFORMS Annual Meeting (Atlanta, 2025, presented by co-author); POMS Annual Meeting (Orlando, 2023)"
-  - title: Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency
-    venues: "POMS CHOM Research-in-Practice Showcase (2022); POMS Annual Meeting (online, 2022)"
-  - title: Data-Driven Workforce Planning for Healthcare Organizations
-    venues: "INFORMS Annual Meeting (Indianapolis, 2022)"
-  - title: Appointment Scheduling with Off-line Discretionary Work
-    venues: "POMS Annual Meeting (online, 2022); INFORMS Annual Meeting (Anaheim, 2021)"
-  - title: Collaborative Care for Mental and Physical Health
-    venues: "MSOM Conference (2022, 2021); POMS Annual Meeting (online, 2022, 2021); INFORMS Annual Meeting (Seattle, 2019); INFORMS Healthcare (Boston, 2019); INFORMS Annual Meeting (Phoenix, 2018)"
-  - title: Staff Planning for Anesthesiologists
-    venues: "MSOM Conference (2019, 2018); INFORMS Annual Meeting (Seattle, 2019); INFORMS Healthcare (Boston, 2019); INFORMS Annual Meeting (Phoenix, 2018, presented by co-author); INFORMS Annual Meeting (Houston, 2017); INFORMS Annual Meeting (Nashville, 2016)"
-  - title: Integrated Staff and Room Scheduling for Surgeries
-    venues: "INFORMS Healthcare (Rotterdam, 2017); INFORMS Annual Meeting (Nashville, 2016); INFORMS Annual Meeting (Philadelphia, 2015); INFORMS Healthcare (Nashville, 2015)"
-  - title: Planning for HIV Screening, Testing, and Care
-    venues: "INFORMS Annual Meeting (San Francisco, 2014)"
+conferences: # one row per presentation; the talks page groups these by year
+  - year: 2025
+    event: INFORMS Annual Meeting
+    location: Atlanta
+    paper: "Data-Driven Approach to the Surgical Block Release Decision"
+  - year: 2025
+    event: POMS Annual Meeting
+    location: Atlanta
+    paper: "Data-Driven Approach to the Surgical Block Release Decision"
+  - year: 2025
+    event: INFORMS Annual Meeting
+    location: Atlanta
+    paper: "Multilocation, Dynamic Staff Planning for a Healthcare System"
+    note: presented by co-author
+  - year: 2024
+    event: INFORMS Annual Meeting
+    location: Seattle
+    paper: "Data-Driven Approach to the Surgical Block Release Decision"
+  - year: 2023
+    event: INFORMS Annual Meeting
+    location: Phoenix
+    paper: "Data-Driven Approach to the Surgical Block Release Decision"
+  - year: 2023
+    event: POMS Annual Meeting
+    location: Orlando
+    paper: "Multilocation, Dynamic Staff Planning for a Healthcare System"
+  - year: 2022
+    event: INFORMS Annual Meeting
+    location: Indianapolis
+    paper: "Data-Driven Workforce Planning for Healthcare Organizations"
+  - year: 2022
+    event: POMS CHOM Research-in-Practice Showcase
+    paper: "Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency"
+  - year: 2022
+    event: POMS Annual Meeting
+    location: online
+    paper: "Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency"
+  - year: 2022
+    event: POMS Annual Meeting
+    location: online
+    paper: "Appointment Scheduling with Off-line Discretionary Work"
+  - year: 2022
+    event: MSOM Conference
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2022
+    event: POMS Annual Meeting
+    location: online
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2021
+    event: INFORMS Annual Meeting
+    location: Anaheim
+    paper: "Appointment Scheduling with Off-line Discretionary Work"
+  - year: 2021
+    event: MSOM Conference
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2021
+    event: POMS Annual Meeting
+    location: online
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2019
+    event: INFORMS Annual Meeting
+    location: Seattle
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2019
+    event: INFORMS Healthcare
+    location: Boston
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2019
+    event: MSOM Conference
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2019
+    event: INFORMS Annual Meeting
+    location: Seattle
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2019
+    event: INFORMS Healthcare
+    location: Boston
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2018
+    event: INFORMS Annual Meeting
+    location: Phoenix
+    paper: "Collaborative Care for Mental and Physical Health"
+  - year: 2018
+    event: MSOM Conference
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2018
+    event: INFORMS Annual Meeting
+    location: Phoenix
+    paper: "Staff Planning for Anesthesiologists"
+    note: presented by co-author
+  - year: 2017
+    event: INFORMS Annual Meeting
+    location: Houston
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2017
+    event: INFORMS Healthcare
+    location: Rotterdam
+    paper: "Integrated Staff and Room Scheduling for Surgeries"
+  - year: 2016
+    event: INFORMS Annual Meeting
+    location: Nashville
+    paper: "Staff Planning for Anesthesiologists"
+  - year: 2016
+    event: INFORMS Annual Meeting
+    location: Nashville
+    paper: "Integrated Staff and Room Scheduling for Surgeries"
+  - year: 2015
+    event: INFORMS Annual Meeting
+    location: Philadelphia
+    paper: "Integrated Staff and Room Scheduling for Surgeries"
+  - year: 2015
+    event: INFORMS Healthcare
+    location: Nashville
+    paper: "Integrated Staff and Room Scheduling for Surgeries"
+  - year: 2014
+    event: INFORMS Annual Meeting
+    location: San Francisco
+    paper: "Planning for HIV Screening, Testing, and Care"
