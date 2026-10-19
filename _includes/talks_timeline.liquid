@@ -1,5 +1,5 @@
 {% comment %}
-  Year-by-year timeline. Params: items (list), kind ('seminar' or 'conference'),
+  Year-by-year timeline. Params: items (list), kind ('seminar', 'conference' or 'event'),
   cutoff (years before this are folded under "Earlier presentations").
 {% endcomment %}
 {% assign years = include.items | group_by: 'year' | sort: 'name' | reverse %}
@@ -22,6 +22,10 @@
                 {{ t.event }}{% if t.location or t.note %} <span class="talk-loc">({{ t.location }}{% if t.location and t.note %}, {% endif %}{{ t.note }})</span>{% endif %}{% unless forloop.last %};{% endunless %}
               {% endfor %}
             </li>
+          {% endfor %}
+        {% elsif include.kind == 'event' %}
+          {% for t in y.items %}
+            <li>{% if t.title %}"{{ t.title }}" ({{ t.role | downcase }}), {% endif %}{{ t.event }}{% if t.note %} <span class="talk-loc">({{ t.note }})</span>{% endif %}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}</li>
           {% endfor %}
         {% else %}
           {% for t in y.items %}

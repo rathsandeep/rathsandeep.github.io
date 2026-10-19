@@ -45,6 +45,24 @@ industry:
     location: Mumbai
     year: 2025
 
+meetings: # policy workshops and meetings attended (CV: Service to ISB, Meeting Attendee)
+  - event: "SAHI (Strategy for Artificial Intelligence in Healthcare for India) Implementation Roadmap Writing Workshop"
+    note: participant
+    location: Ashoka University, Sonipat
+    year: 2026
+  - event: Care Coordination Model (CCM) Community of Practice
+    note: member, 2026–present
+    location: online
+    year: 2026
+  - event: Convergence Workshop on National Strategy for AI in Healthcare
+    note: participant
+    location: Vijayawada
+    year: 2025
+  - event: ABDM 2.0 Consultation Workshop
+    note: participant
+    location: IIIT Hyderabad
+    year: 2025
+
 seminars:
   - event: ISB Insights Forum
     location: Mohali
@@ -53,27 +71,37 @@ seminars:
     location: Hyderabad
     year: 2024
   - event: University of Kansas School of Business
+    location: Lawrence, KS
     year: 2024
   - event: Workshop in Management Science
     location: San Pedro de Atacama, Chile
     year: 2023
   - event: Carlson School of Management, University of Minnesota
+    location: Minneapolis, MN
     year: 2023
   - event: Johns Hopkins Carey Business School
+    location: Baltimore, MD
     year: 2023
   - event: Robert H. Smith School of Business, University of Maryland
+    location: College Park, MD
     year: 2023
   - event: UNC Kenan-Flagler Center for the Business of Health Faculty Research Share Session
+    location: Chapel Hill, NC
     year: 2023
   - event: Midwest Healthcare Workshop, Gies College of Business, UIUC
+    location: Champaign, IL
     year: 2023
   - event: Department of Statistics and Operations Research, UNC
+    location: Chapel Hill, NC
     year: 2023
   - event: Sloan School of Management, MIT
+    location: Cambridge, MA
     year: 2023
   - event: Carroll School of Management, Boston College
+    location: Chestnut Hill, MA
     year: 2023
   - event: NC State Doing Good with OM/OR Workshop
+    location: Raleigh, NC
     year: 2022
   - event: Kelley School of Business, Indiana University, Consortium Friday Seminar Series (online)
     year: 2021
@@ -84,11 +112,13 @@ seminars:
     location: Chapel Hill
     year: 2015
   - event: Communication, Networks and Systems Seminar, University of Southern California
+    location: Los Angeles
     year: 2015
   - event: Southern California OR/OM Day
     location: Los Angeles
     year: 2015
   - event: DOTM Colloquium Series, UCLA Anderson
+    location: Los Angeles
     year: 2015
 
 conferences: # one row per presentation; the talks page groups these by year
@@ -123,6 +153,7 @@ conferences: # one row per presentation; the talks page groups these by year
     paper: "Data-Driven Workforce Planning for Healthcare Organizations"
   - year: 2022
     event: POMS CHOM Research-in-Practice Showcase
+    location: online
     paper: "Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency"
   - year: 2022
     event: POMS Annual Meeting
@@ -134,6 +165,7 @@ conferences: # one row per presentation; the talks page groups these by year
     paper: "Appointment Scheduling with Off-line Discretionary Work"
   - year: 2022
     event: MSOM Conference
+    location: Munich
     paper: "Collaborative Care for Mental and Physical Health"
   - year: 2022
     event: POMS Annual Meeting
@@ -145,6 +177,7 @@ conferences: # one row per presentation; the talks page groups these by year
     paper: "Appointment Scheduling with Off-line Discretionary Work"
   - year: 2021
     event: MSOM Conference
+    location: online
     paper: "Collaborative Care for Mental and Physical Health"
   - year: 2021
     event: POMS Annual Meeting
@@ -160,6 +193,7 @@ conferences: # one row per presentation; the talks page groups these by year
     paper: "Collaborative Care for Mental and Physical Health"
   - year: 2019
     event: MSOM Conference
+    location: Singapore
     paper: "Staff Planning for Anesthesiologists"
   - year: 2019
     event: INFORMS Annual Meeting
@@ -175,6 +209,7 @@ conferences: # one row per presentation; the talks page groups these by year
     paper: "Collaborative Care for Mental and Physical Health"
   - year: 2018
     event: MSOM Conference
+    location: Dallas
     paper: "Staff Planning for Anesthesiologists"
   - year: 2018
     event: INFORMS Annual Meeting

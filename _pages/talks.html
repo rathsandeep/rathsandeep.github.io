@@ -12,8 +12,6 @@ nav_order: 4
 <h3>Conference presentations</h3>
 {% include talks_timeline.liquid items=site.data.talks.conferences kind='conference' cutoff=2022 %}
 
-<h3>Panels and industry talks</h3>
-<ul class="talks-list">
-  {% for t in site.data.talks.panels %}{% include talk_item.liquid t=t %}{% endfor %}
-  {% for t in site.data.talks.industry %}{% include talk_item.liquid t=t %}{% endfor %}
-</ul>
+<h3>Panels and other events</h3>
+{% assign other_events = site.data.talks.panels | concat: site.data.talks.industry | concat: site.data.talks.meetings %}
+{% include talks_timeline.liquid items=other_events kind='event' cutoff=0 %}
