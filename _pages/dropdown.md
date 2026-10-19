@@ -1,14 +1,12 @@
 ---
 layout: page
-title: more
+title: cv
 nav: true
 nav_order: 9
-dropdown: true
+flat_links: true # show each child as its own top-bar link instead of a dropdown
 children:
-  - title: Detailed CV
+  - title: detailed cv
     permalink: /assets/pdf/sandeep_rath_resume.pdf
-  - title: divider
-  - title: Brief Resume
+  - title: brief resume
     permalink: /assets/pdf/sandeep_resume_short_resume.pdf
-
 ---
