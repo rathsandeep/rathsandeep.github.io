@@ -9,13 +9,16 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Indian School of Business</p>
+    <p>Hyderabad, India</p>
+    <p>sandeep_rath@isb.edu</p>
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 working_papers: true
 inprogress_papers: true
 media: true # shows the 6 most recent items from _data/media.yml
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 
@@ -29,5 +32,7 @@ At ISB, I teach the core Operations Management course and an elective on Managin
 
 
 My current interests are in how digitization and AI are changing hospital operations in India, and how AI tools can improve the administrative functions of a hospital. I am also interested in applying causal inference and optimization methods to other service delivery settings, such as online retail.
+
+Beyond research, I advise startups, hospitals, healthcare accreditation bodies, and government agencies on health AI and digitization. I welcome conversations with hospitals and companies interested in data-driven research partnerships.
 
 My detailed academic CV is available [here](/assets/pdf/sandeep_rath_resume.pdf) and a brief resume is available [here](/assets/pdf/sandeep_resume_short_resume.pdf).
