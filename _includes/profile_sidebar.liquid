@@ -6,7 +6,7 @@
 {% if p.position %}<div class="sidebar-position">{{ p.position }}</div>{% endif %}
 {% if p.affiliation %}
   <div class="sidebar-affiliation">
-    {% if site.work_url %}<a href="{{ site.work_url }}">{{ p.affiliation }}</a>{% else %}{{ p.affiliation }}{% endif %}
+    {{ p.affiliation }}
   </div>
 {% endif %}
 <ul class="sidebar-links">
