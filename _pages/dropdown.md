@@ -5,7 +5,7 @@ nav: true
 nav_order: 9
 dropdown: true
 children:
-  - title: CV
+  - title: Detailed CV
     permalink: /assets/pdf/sandeep_rath_resume.pdf
   - title: divider
   - title: Brief Resume
