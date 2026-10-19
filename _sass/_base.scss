@@ -1357,3 +1357,27 @@ swiper-container {
     margin-bottom: 0.5rem;
   }
 }
+
+// Polish pass
+// Paper entries use the full column width (thumbnails are off)
+.publications ol.bibliography li .row > div {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+// Research page abstracts: left-aligned, no indent, slightly smaller
+.show-abstracts .publications div.abstract.hidden {
+  text-align: left !important;
+  p {
+    margin: 0.4rem 0 0 !important;
+    line-height: 1.5;
+    color: var(--global-text-color);
+    opacity: 0.85;
+  }
+}
+// Home page: tighter gap under section labels
+.home-main h2 {
+  margin-bottom: 0.75rem !important;
+}
+.home-main .publications {
+  margin-top: 0 !important;
+}

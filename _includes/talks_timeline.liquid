@@ -25,7 +25,7 @@
           {% endfor %}
         {% elsif include.kind == 'event' %}
           {% for t in y.items %}
-            <li>{% if t.title %}"{{ t.title }}" ({{ t.role | downcase }}), {% endif %}{{ t.event }}{% if t.note %} <span class="talk-loc">({{ t.note }})</span>{% endif %}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}</li>
+            <li>{% if t.title %}&ldquo;{{ t.title }}&rdquo; ({{ t.role | downcase }}), {% endif %}{{ t.event }}{% if t.note %} <span class="talk-loc">({{ t.note }})</span>{% endif %}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}</li>
           {% endfor %}
         {% else %}
           {% for t in y.items %}

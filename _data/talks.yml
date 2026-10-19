@@ -27,6 +27,7 @@ panels:
 
 industry:
   - event: "Talk on telehealth delivery, Digi Health Conclave, Department of Health, Medical Education & Family Welfare, Government of Jharkhand"
+    short_event: "Talk on telehealth delivery, Digi Health Conclave, Government of Jharkhand" # used on the home page
     role: Speaker
     location: Ranchi
     year: 2026
