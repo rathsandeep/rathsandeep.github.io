@@ -13,7 +13,8 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 working_papers: false
 inprogress_papers: false
-impact: true # shows _data/impact.yml
+impact: >-
+  My research has been developed with and implemented at UCLA Ronald Reagan Medical Center, the University of Pittsburgh Medical Center, UNC Rex Hospital, the Veterans Health Administration, and the health technology company OpFlow. In India, I work with the National Accreditation Board for Hospitals & Healthcare Providers (NABH) and the Government of Telangana on digital health and AI in healthcare.
 talks: true # shows talks marked home: true in _data/talks.yml
 media: true # shows the 3 most recent items from _data/media.yml
 social: false # includes social icons at the bottom of the page

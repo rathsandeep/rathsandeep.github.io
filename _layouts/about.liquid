@@ -30,12 +30,8 @@ layout: default
 
     <!-- Impact in practice -->
     {% if page.impact %}
-      <h2>Impact in practice</h2>
-      <ul class="impact-list">
-        {% for i in site.data.impact %}
-          <li><span class="impact-partner">{{ i.partner }}</span><span class="impact-text">{{ i.text }}</span></li>
-        {% endfor %}
-      </ul>
+      <h2>Collaborating organizations</h2>
+      <p class="collaborate-note">{{ page.impact }}</p>
     {% endif %}
 
     <!-- Selected papers -->
