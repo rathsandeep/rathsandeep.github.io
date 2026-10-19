@@ -181,11 +181,11 @@ blockquote {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
 
     p {
-      display: inline-block;
       margin: 0;
     }
   }
@@ -1101,4 +1101,14 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+// Research page: show abstracts expanded, hide the Abs toggle
+.show-abstracts .publications div.abstract.hidden {
+  max-height: none !important;
+  border: none !important;
+  margin-top: 0.25rem;
+}
+.show-abstracts .publications a.abstract.btn {
+  display: none;
 }

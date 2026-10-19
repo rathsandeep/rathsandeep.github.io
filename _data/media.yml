@@ -5,6 +5,7 @@
   url: https://www.healthcareexecutive.in/blog/digital-may
 - title: "New Research Finds Data-Driven Staffing Model Delivers Major Cost Savings for Health Care Systems"
   outlet: Medical Xpress
+  home: false # near-duplicate of the INFORMS release; shown only on the media page
   year: 2026
   url: https://medicalxpress.com/news/2026-02-driven-staffing-major-health.html
 - title: "New Research Finds Data-Driven Staffing Model Delivers Major Cost Savings for Healthcare Systems"

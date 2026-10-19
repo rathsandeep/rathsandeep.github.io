@@ -11,6 +11,8 @@ nav_order: 2
  <a href="https://scholar.google.com/citations?user=0A45b-kAAAAJ&hl=en"><b>Google Scholar Profile</b></a>
 
 
+<div class="show-abstracts">
+
 <h2>published & accepted papers</h2>
 <div class="publications">
   {% bibliography --group_by none --query @*[accepted=true]* %}
@@ -24,5 +26,7 @@ nav_order: 2
 <h2>work in progress</h2>
 <div class="publications">
   {% bibliography --group_by none --query @*[inprogress=true]* %}
+</div>
+
 </div>
 

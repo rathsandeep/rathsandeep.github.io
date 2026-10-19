@@ -1,6 +1,11 @@
+{% assign shown = 0 %}
 <ul class="media-list">
   {% for item in site.data.media %}
-    {% if include.limit and forloop.index > include.limit %}{% break %}{% endif %}
+    {% if include.limit %}
+      {% if item.home == false %}{% continue %}{% endif %}
+      {% if shown >= include.limit %}{% break %}{% endif %}
+    {% endif %}
+    {% assign shown = shown | plus: 1 %}
     <li>
       <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>, <em>{{ item.outlet }}</em>, {{ item.year }}
     </li>
