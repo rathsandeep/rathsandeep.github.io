@@ -1253,3 +1253,50 @@ swiper-container {
 .talk-timeline {
   margin-bottom: 2rem;
 }
+
+// Research page: year in a left column (matches the talks page)
+.pub-timeline .publications {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  column-gap: 0;
+  margin-bottom: 2rem;
+  h2.bibliography {
+    grid-column: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    text-align: left;
+    margin: 0;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+  ol.bibliography {
+    grid-column: 2;
+    margin: 0;
+    padding-top: 0.6rem;
+    padding-left: 0;
+    border-top: 1px solid var(--global-divider-color);
+  }
+  ol.bibliography li .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.pub-timeline h3 {
+  margin-top: 1.5rem;
+}
+// Teaching page
+.teaching-row {
+  grid-template-columns: 5rem 1fr;
+}
+.teaching-school {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+.teaching-desc {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+.teaching-row .talk-items li {
+  margin-bottom: 0.7rem;
+}

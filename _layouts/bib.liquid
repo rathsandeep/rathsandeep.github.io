@@ -71,7 +71,7 @@
         {% endif %}
 
         {% if forloop.length > 1 %}
-          {% if forloop.first == false %}, {% endif %}
+          {% if forloop.first == false and forloop.length > 2 %}, {% endif %}
           {% if forloop.last and author_array_limit == author_array_size %}and {% endif %}
         {% endif %}
         {% if author_is_self %}

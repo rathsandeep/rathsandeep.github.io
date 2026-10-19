@@ -1,0 +1,13 @@
+{% assign years = site.data.media | group_by: 'year' | sort: 'name' | reverse %}
+<div class="talk-timeline">
+  {% for y in years %}
+    <div class="talk-year-row">
+      <div class="talk-year">{{ y.name }}</div>
+      <ul class="talk-items">
+        {% for item in y.items %}
+          <li><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a><span class="talk-loc">, <em>{{ item.outlet }}</em></span></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

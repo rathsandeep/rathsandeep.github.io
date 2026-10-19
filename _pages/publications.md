@@ -15,21 +15,21 @@ nav_order: 2
 </p>
 
 
-<div class="show-abstracts">
+<div class="show-abstracts pub-timeline">
 
-<h2>published & accepted papers</h2>
+<h3>Published and accepted papers</h3>
 <div class="publications">
-  {% bibliography --group_by none --query @*[accepted=true]* %}
+  {% bibliography --group_by year --group_order descending --query @*[accepted=true]* %}
 </div>
 
-<h2>working papers</h2>
+<h3>Working papers</h3>
 <div class="publications">
-  {% bibliography --group_by none --query @*[working=true]* %}
+  {% bibliography --group_by year --group_order descending --query @*[working=true]* %}
 </div>
 
-<h2>work in progress</h2>
+<h3>Work in progress</h3>
 <div class="publications">
-  {% bibliography --group_by none --query @*[inprogress=true]* %}
+  {% bibliography --group_by year --group_order descending --query @*[inprogress=true]* %}
 </div>
 
 </div>
