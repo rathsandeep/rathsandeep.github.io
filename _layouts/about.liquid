@@ -28,6 +28,16 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Impact in practice -->
+    {% if page.impact %}
+      <h2>Impact in practice</h2>
+      <ul class="impact-list">
+        {% for i in site.data.impact %}
+          <li><span class="impact-partner">{{ i.partner }}</span><span class="impact-text">{{ i.text }}</span></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -69,6 +79,12 @@ layout: default
       </h2>
       {% include media.liquid limit=3 %}
       <p class="more-link"><a href="{{ '/media/' | relative_url }}">All media &rarr;</a></p>
+    {% endif %}
+
+    <!-- Working with me -->
+    {% if page.collaborate %}
+      <h2>Working with me</h2>
+      <p class="collaborate-note">{{ page.collaborate }}</p>
     {% endif %}
 
     <!-- Social -->

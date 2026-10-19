@@ -15,6 +15,19 @@ nav_order: 2
 </p>
 
 
+<h3>Research themes</h3>
+<div class="themes">
+  {% for t in site.data.themes %}
+    <div class="theme">
+      <div class="theme-name">{{ t.name }}</div>
+      <div class="theme-summary">{{ t.summary }}</div>
+      <ul class="theme-papers">
+        {% for p in t.papers %}<li>{{ p }}</li>{% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
 <div class="show-abstracts pub-timeline">
 
 <h3>Published and accepted papers</h3>

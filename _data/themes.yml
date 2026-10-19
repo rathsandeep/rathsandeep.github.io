@@ -1,0 +1,23 @@
+# Research themes shown at the top of the research page.
+- name: Workforce and capacity planning
+  summary: Optimization models, estimated from hospital data, for staffing clinicians, scheduling operating rooms, and configuring surgical inventory.
+  papers:
+    - Multilocation, Dynamic Staff Planning for a Healthcare System (Operations Research, 2026)
+    - Data-Driven Surgical Tray Optimization to Improve Operating Room Efficiency (Operations Research, 2024)
+    - Staff Planning for Hospitals with Implicit Cost Estimation and Stochastic Optimization (POM, 2022)
+    - Integrated Anesthesiologist and Room Scheduling for Surgeries (Operations Research, 2017)
+- name: Digitization and physician work
+  summary: Causal estimates of how EHR use and digital health standards change physician workload, patient delays, and hospital performance.
+  papers:
+    - Does Physician's Choice of When to Perform EHR Tasks Influence Total EHR Workload? (MSOM, 2024)
+    - "Reducing Appointment Delays: The Impact of Standardized EHR Usage on Physician Timeliness (working paper)"
+    - "Post-Adoption Value of NABH Digital Health Standards (ISB white paper, 2026)"
+- name: Care delivery design
+  summary: Models for designing care programs for chronic and co-occurring conditions that balance health outcomes with cost.
+  papers:
+    - Optimal Staffing and Treatment for Collaborative Care of Diabetes and Depression (POM, 2026)
+    - Planning for HIV Screening, Testing, and Care at the Veterans Health Administration (Operations Research, 2015)
+- name: Retail analytics
+  summary: Applying causal inference and optimization to promotions in online retail.
+  papers:
+    - "Right Basket, Right Coupon: Basket-Aware Promotion Optimization in Online Retail (working paper)"

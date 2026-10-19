@@ -1411,3 +1411,53 @@ swiper-container {
   height: 85vh;
   border: 1px solid var(--global-divider-color);
 }
+
+// Home: impact in practice
+.impact-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  li {
+    margin-bottom: 0.6rem;
+  }
+}
+.impact-partner {
+  font-weight: 500;
+  display: block;
+}
+.impact-text {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+}
+.collaborate-note {
+  font-size: 0.98rem;
+}
+// Research page: themes
+.themes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem 2rem;
+  margin-bottom: 2rem;
+}
+.theme {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.6rem;
+}
+.theme-name {
+  font-weight: 500;
+}
+.theme-summary {
+  font-size: 0.95rem;
+  margin: 0.2rem 0 0.4rem;
+}
+.theme-papers {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
