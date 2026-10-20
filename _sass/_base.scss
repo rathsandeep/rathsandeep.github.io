@@ -1475,3 +1475,23 @@ swiper-container {
 .home-main .home-heading {
   margin-top: 0 !important;
 }
+
+// Consistent type scale across pages
+// Page titles (about me, research, teaching, talks, media, cv): theme default large light h1
+.home-main .home-title {
+  margin-bottom: 1.25rem;
+}
+// Section headings on every page: small and bold, sentence case
+.post article h2:not(.bibliography),
+.post article h3 {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  color: var(--global-text-color) !important;
+  margin: 2.25rem 0 0.75rem !important;
+}
+.post article h3:first-child,
+.post article .research-profiles + h3 {
+  margin-top: 1rem !important;
+}
