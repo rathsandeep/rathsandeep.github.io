@@ -12,6 +12,8 @@ nav_order: 2
   <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Google Scholar</a>
   <span class="sep">&middot;</span>
   <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener"><i class="ai ai-orcid"></i> ORCID</a>
+  <span class="sep">&middot;</span>
+  <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1601088" target="_blank" rel="noopener"><i class="ai ai-ssrn"></i> SSRN</a>
 </p>
 
 
