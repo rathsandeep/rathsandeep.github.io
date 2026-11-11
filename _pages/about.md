@@ -22,7 +22,7 @@ collaborate: >-
   I welcome conversations with hospitals, health technology companies, and public health agencies interested in data-driven research partnerships, especially on AI and digital health in India.
 ---
 
-I am an Assistant Professor of Operations Management at the Indian School of Business (ISB). Before joining ISB in 2025, I was on the faculty of UNC Kenan-Flagler Business School (2016–2025). I received my PhD in Management from UCLA Anderson.
+I am an Assistant Professor of Operations Management at the Indian School of Business (ISB). Before joining ISB in 2025, I was on the faculty of UNC Kenan-Flagler Business School (2016–2025). I am also an Affiliate Researcher at the Gies College of Business, University of Illinois Urbana-Champaign, and at the Darla Moore School of Business, University of South Carolina. I received my PhD in Management from UCLA Anderson.
 
 I use optimization and causal inference to improve healthcare operations. My research covers four themes: workforce and capacity planning, digitization and physician work, care delivery design, and retail analytics. My work is published in *Operations Research*, *Production and Operations Management*, and *Manufacturing & Service Operations Management*. My current research examines how digitization and AI are changing hospital operations in India, and how AI tools can improve hospital administration.
 
