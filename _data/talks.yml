@@ -65,6 +65,18 @@ meetings: # policy workshops and meetings attended (CV: Service to ISB, Meeting 
     year: 2025
 
 seminars:
+  - event: UCLA Anderson School of Management
+    location: Los Angeles, CA
+    year: 2027
+    note: scheduled
+  - event: Paul Merage School of Business, UC Irvine
+    location: Irvine, CA
+    year: 2027
+    note: scheduled
+  - event: Ivey Business School, Western University
+    location: London, Ontario
+    year: 2027
+    note: scheduled
   - event: ISB Insights Forum
     location: Mohali
     year: 2025

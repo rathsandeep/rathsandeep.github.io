@@ -29,7 +29,7 @@
           {% endfor %}
         {% else %}
           {% for t in y.items %}
-            <li>{{ t.event }}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}</li>
+            <li>{{ t.event }}{% if t.location %}<span class="talk-loc">, {{ t.location }}</span>{% endif %}{% if t.note %} <span class="talk-loc">({{ t.note }})</span>{% endif %}</li>
           {% endfor %}
         {% endif %}
       </ul>
